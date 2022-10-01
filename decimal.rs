@@ -8,7 +8,7 @@ fn main() {
      // Print text to the console 
      println!("\x1bc\x1b[42;30m\n");
      
-     for _n in 0 .. 128/4{
+     for _n in 0 .. 38{
          println!("d{}",_m);
          println!("{:x}",_m);
          _m=mults(_m,10);
